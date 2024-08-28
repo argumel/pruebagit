@@ -8,6 +8,7 @@ import lombok.Data;
 @Entity
 @Data
 @SpringBoot
+@jose de jesus
 public class Company {
 
     @Id
