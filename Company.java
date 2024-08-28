@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Entity
 
-@Data
+
 public class Company {
 
     @Id
@@ -19,4 +19,8 @@ public class Company {
 
     @JsonFormat(shape = JsonFormat.STRING,pattern="dd/MM/yyyy")
     private String  foundationDate;
+	
+	public setId(Long id){
+		this.id = id
+	}
 }
