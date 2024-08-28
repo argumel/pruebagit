@@ -23,7 +23,11 @@ public class Company {
 	public setId(Long id){
 		this.id = id
 	}
+
 	public setName(String name){
 		this.name = name;
-	}
+
+    public Long getId(){
+		return this.id;
+
 }
