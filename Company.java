@@ -7,6 +7,7 @@ import lombok.Data;
 
 @Entity
 @Data
+@SpringBoot
 public class Company {
 
     @Id
