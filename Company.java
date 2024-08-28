@@ -25,8 +25,8 @@ public class Company {
 
 	public setName(String name){
 		this.name = name;
-
+	}
     public Long getId(){
 		return this.id;
-
+    }
 }
